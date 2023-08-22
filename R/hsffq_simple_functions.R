@@ -490,9 +490,9 @@ quotient <- function(row) {
 }
 
 
-#' Frequency Factors for CATALYST Project Children
+#' Frequency Factors for American Children
 #'
-#' A small set of data including 32 children living in the united states. f1:f85
+#' A small set of data including 32 children living in the United States. f1:f85
 #' represents the frequency with which participants consumed 85 respective foods.
 #' Numbers 1-9 correspond to the following:
 #' 1: never
@@ -606,7 +606,7 @@ quotient <- function(row) {
 
 
 
-#' Frequency Factors for CATALYST Project Children with Age of Participant
+#' Frequency Factors for American Children with Age of Participant
 #'
 #' A small set of food frequency questionnaire data including 32 children living
 #'  in the United States. f1:f85 represents the frequency with which
@@ -718,7 +718,7 @@ quotient <- function(row) {
 #'
 #'
 #' }
-#' @source <Baylor Human Evolutionary Biology Lab>
+#' @source <Baylor Human Evolutionary Biology and Health Lab>
 "age_freq"
 
 

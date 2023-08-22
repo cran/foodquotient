@@ -3,7 +3,7 @@
 \docType{data}
 \name{freq}
 \alias{freq}
-\title{Frequency Factors for CATALYST Project Children}
+\title{Frequency Factors for American Children}
 \format{
 ## `freq`
 A data frame with 32 rows and 85 columns:
@@ -108,7 +108,7 @@ A data frame with 32 rows and 85 columns:
 freq
 }
 \description{
-A small set of data including 32 children living in the united states. f1:f85
+A small set of data including 32 children living in the United States. f1:f85
 represents the frequency with which participants consumed 85 respective foods.
 Numbers 1-9 correspond to the following:
 1: never

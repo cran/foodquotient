@@ -3,7 +3,7 @@
 \docType{data}
 \name{age_freq}
 \alias{age_freq}
-\title{Frequency Factors for CATALYST Project Children with Age of Participant}
+\title{Frequency Factors for American Children with Age of Participant}
 \format{
 ## `age_freq`
 A data frame with 32 rows and 86 columns:
@@ -103,7 +103,7 @@ A data frame with 32 rows and 86 columns:
 }
 }
 \source{
-<Baylor Human Evolutionary Biology Lab>
+<Baylor Human Evolutionary Biology and Health Lab>
 }
 \usage{
 age_freq

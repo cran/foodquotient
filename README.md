@@ -30,7 +30,8 @@ The macquotient() function uses protein, fat, and carbohydrate values to calcula
 
 
 # Installation
-You can install foodquotient from GitHub using the `devtools` package:
+You can install foodquotient directly from CRAN using 
+<install.package("foodquotient")> or on GitHub using the `devtools` package:
 devtools::install_github("katepogue222/foodquotient")
 
 # Examples
@@ -44,9 +45,9 @@ random_integers <- sample(1:9, 85, replace=TRUE)
 vec <- c(6.2, random_integers)
 grams(vec)
 
-vec1 <- c(5.1, sample(1:8, 85, replace = TRUE))
+vec1 <- c(5.1, sample(1:9, 85, replace = TRUE))
 row1 <- data.frame(t(vec1))
-row2 <- data.frame(t(c(8.3, sample(1:8, 85, replace = TRUE))))
+row2 <- data.frame(t(c(8.3, sample(1:9, 85, replace = TRUE))))
 df <- rbind(row1, row2)
 
 df_results <- data.frame()
@@ -63,7 +64,7 @@ macros(vec)
 
 vec1 <- c(5.1, sample(1:9, 85, replace = TRUE))
 row1 <- data.frame(t(vec1))
-row2 <- data.frame(t(c(8.3, sample(1:8, 85, replace = TRUE))))
+row2 <- data.frame(t(c(8.3, sample(1:9, 85, replace = TRUE))))
 df <- rbind(row1, row2)
 
 df_results <- data.frame()
@@ -80,7 +81,7 @@ micros(vec)
 
 vec1 <- c(5.1, sample(1:9, 85, replace = TRUE))
 row1 <- data.frame(t(vec1))
-row2 <- data.frame(t(c(8.3, sample(1:8, 85, replace = TRUE))))
+row2 <- data.frame(t(c(8.3, sample(1:9, 85, replace = TRUE))))
 df <- rbind(row1, row2)
 
 df_results <- data.frame()
@@ -97,7 +98,7 @@ nutrients(vec)
 
 vec1 <- c(5.1, sample(1:9, 85, replace = TRUE))
 row1 <- data.frame(t(vec1))
-row2 <- data.frame(t(c(8.3, sample(1:8, 85, replace = TRUE))))
+row2 <- data.frame(t(c(8.3, sample(1:9, 85, replace = TRUE))))
 df <- rbind(row1, row2)
 
 df_results <- data.frame()
@@ -113,7 +114,7 @@ quotient(vec)
 
 vec1 <- c(5.1, sample(1:9, 85, replace = TRUE))
 row1 <- data.frame(t(vec1))
-row2 <- data.frame(t(c(8.3, sample(1:8, 85, replace = TRUE))))
+row2 <- data.frame(t(c(8.3, sample(1:9, 85, replace = TRUE))))
 df <- rbind(row1, row2)
 
 df_results <- data.frame()
